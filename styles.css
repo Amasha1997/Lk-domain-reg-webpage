@@ -126,3 +126,27 @@ h3 {
     text-align: center;
     color: white;
 }
+
+p {
+    font-family: "arial";
+    box-align: left;
+}
+
+.newone {
+
+    height: 150px;
+    width: 900px;
+    float: left;
+    border: 0px solid black;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 1px;
+}
+
+
+}
+
+h2 {
+    font-family: "arial";
+
+}
