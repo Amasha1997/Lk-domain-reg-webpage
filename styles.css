@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 .header {
     height: 70vh;
     width: 100%;
@@ -143,10 +144,134 @@ p {
     border-radius: 1px;
 }
 
-
-}
-
 h2 {
     font-family: "arial";
 
+}
+
+.sub1 li a:hover {
+    background: white;
+
+}
+
+.sub1 ul li {
+    display: block;
+    list-style: none;
+    box-align: center;
+}
+
+ul li ul.sub1 {
+    width: 250%;
+    background: #483D8B;
+    position: relative;
+    display: none;
+    accent-color: white;
+    text-align: center;
+
+}
+
+ul li:hover ul.sub1 {
+    display: block;
+    color: white;
+
+
+}
+
+.sub2 li a:hover {
+    background: white;
+    ;
+}
+
+.sub2 ul li {
+    display: block;
+    list-style: none;
+    box-align: center;
+}
+
+ul li ul.sub2 {
+    width: 250%;
+    background: #483D8B;
+    position: relative;
+    display: none;
+    accent-color: white;
+
+}
+
+ul li:hover ul.sub2 {
+    display: block;
+    color: white;
+}
+
+.sub3 li a:hover {
+    background: white;
+    block-size: 150px;
+
+}
+
+.sub3 ul li {
+    display: block;
+    list-style: none;
+    box-align: center;
+}
+
+ul li ul.sub3 {
+    width: 250%;
+    background: #483D8B;
+    position: relative;
+    display: none;
+    accent-color: white;
+
+}
+
+ul li:hover ul.sub3 {
+    display: block;
+    color: white;
+}
+
+.sub4 li a:hover {
+    background: white;
+}
+
+.sub4 ul li {
+    display: block;
+    list-style: none;
+    box-align: center;
+}
+
+ul li ul.sub4 {
+    width: 250%;
+    background: #483D8B;
+    position: relative;
+    display: none;
+    accent-color: white;
+
+}
+
+ul li:hover ul.sub4 {
+    display: block;
+    color: white;
+}
+
+.sub5 li a:hover {
+    background: white;
+}
+
+.sub5 ul li {
+    display: block;
+    list-style: none;
+    box-align: center;
+}
+
+ul li ul.sub5 {
+    width: 250%;
+    background: #483D8B;
+    position: relative;
+    display: none;
+    accent-color: white;
+
+}
+
+ul li:hover ul.sub5 {
+    display: block;
+    color: white;
 }
