@@ -275,3 +275,7 @@ ul li:hover ul.sub5 {
     display: block;
     color: white;
 }
+
+h2 {
+    font-family: "arial"
+}
