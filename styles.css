@@ -8,19 +8,17 @@ body {
 }
 
 
-.body nav {
-    background-color: rgb(44, 45, 102);
-
-}
-
 .header {
-    height: 70vh;
+    height: 55vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("background.jpg");
+    background-image: url("./assests/banner-new.jpg");
     background-position: center;
     background-size: cover;
     color: white;
+}
 
+nav ul {
+    display: inline-block;
 
 }
 
@@ -31,14 +29,12 @@ nav ul li {
     padding: 0px 8px;
     margin: 0 5px;
     border-radius: 5px;
-    float: right;
-    test-decoration: none;
+    text-decoration: none;
     list-style: none;
-    bosx-sizing: border-box;
-    font-family: "Lato";
+    box-sizing: border-box;
+    font-family: "arial";
     width: 100px;
     height: 80px;
-    font-color: white;
 
 }
 
@@ -49,7 +45,7 @@ nav ul li {
 }
 
 h1 input {
-    margin: 70px;
+    margin: 20px;
     width: 250px;
     height: 45px;
     background: white;
@@ -82,24 +78,27 @@ a:hover {
 }
 
 .grid-container {
-    gap: 10px;
+
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto;
     background-color: white;
     padding-block-start: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
 
 }
 
 .grid-item {
     align-items: center;
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
+
     text-align: center;
 
 }
 
 .grid-item p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 
@@ -124,14 +123,17 @@ nav ul {
     background: white;
     margin: 17px;
     grid-template-columns: auto auto;
-    padding-block-start: 15px;
-
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 
 }
 
 .item-grid {
     display: inline-grid;
+    margin-left: 5px;
 }
 
 
@@ -172,7 +174,7 @@ p {
 }
 
 .p-grid p {
-    margin: 15px;
+    margin-left: 100px;
     padding: 15px;
     font-size: 13px;
 }
@@ -190,7 +192,7 @@ p {
 
 h2 {
     font-family: "arial";
-    margin: 10px;
+    margin-left: 100px;
     padding: 20px;
 
 }
