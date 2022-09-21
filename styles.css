@@ -4,6 +4,7 @@
 }
 
 
+
 .header {
     height: 70vh;
     width: 100%;
@@ -162,6 +163,8 @@ h2 {
 
 ul li ul.sub1 {
     width: 250%;
+    padding: 0px;
+    margin: 0px;
     background: #483D8B;
     position: relative;
     display: none;
