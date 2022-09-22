@@ -89,10 +89,10 @@ a:hover {
 
 }
 
+
 .grid-item {
     align-items: center;
     padding: 20px;
-
     text-align: center;
 
 }
@@ -126,31 +126,57 @@ nav ul {
 
 }
 
-.item-grid {
+.grid {
     display: inline-grid;
-    margin-left: 5px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: 0px;
+
 }
 
+.grid-col {
+
+    grid-template-columns: auto;
+    padding-top: 10px;
+}
+
+.item-grid {}
+
+.image-add {
+    display: left;
+}
 
 
 .one {
     background-color: blue;
     height: 50px;
-    width: 800px;
+    width: 734px;
     float: left;
     border: 0px solid black;
-    margin: 10px;
+    margin-left: 100px;
     border-radius: 1px;
 }
 
 .two {
     background-color: orange;
     height: 50px;
-    width: 450px;
+    width: 395px;
     float: left;
     border: 0px solid black;
-    margin: 10px;
+    margin-left: 17px;
     border-radius: 1px;
+}
+
+.col {
+    margin-top: 20px;
+    grid-template-row: auto auto;
+}
+
+.column {
+    background: white;
+    margin-left: 850px;
+    padding-block-start: 30px;
+
 }
 
 
@@ -163,15 +189,14 @@ h3 {
     color: white;
 }
 
-p {
+.p-grid p {
+    font-size: 13px;
     font-family: "arial";
     box-align: left;
 }
 
-.p-grid p {
-    margin-left: 100px;
-    padding: 15px;
-    font-size: 13px;
+.p-grid {
+    padding-bottom: 20px;
 }
 
 .newone {
@@ -187,8 +212,9 @@ p {
 
 h2 {
     font-family: "arial";
-    margin-left: 100px;
+    margin-left: 0px;
     padding: 20px;
+
 
 }
 
@@ -323,6 +349,7 @@ ul li:hover ul.sub5 {
 
 h2 {
     font-family: Verdana;
+    padding-left: 0px;
 }
 
 .grid-container2 {
@@ -340,14 +367,14 @@ h2 {
 
 .grid-item2 ul li {
     list-style: none;
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
 .grid-item2 {
     display: flex;
     justify-content: right;
-    padding: 10px;
+    padding: 5px;
 
 
 }
@@ -357,6 +384,7 @@ h2 {
     grid-template-columns: auto auto auto auto auto;
     background-color: rgb(44, 45, 102);
     width: 100%;
+    height: 75%;
     padding-block-start: 15px;
 
 }
