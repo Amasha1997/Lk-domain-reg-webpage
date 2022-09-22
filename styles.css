@@ -173,7 +173,6 @@ nav ul {
 }
 
 .column {
-    background: white;
     margin-left: 850px;
     padding-block-start: 30px;
 
@@ -190,14 +189,13 @@ h3 {
 }
 
 .p-grid p {
+
     font-size: 13px;
     font-family: "arial";
     box-align: left;
 }
 
-.p-grid {
-    padding-bottom: 20px;
-}
+
 
 .newone {
 
@@ -413,4 +411,42 @@ h2 {
 .grid-item2 li {
     font-size: 13px;
     color: white;
+}
+
+table th td {
+    border: 1px solid black;
+
+}
+
+.first_th {
+    background-color: blue;
+}
+
+.first_td td p {
+    align-items: right;
+
+}
+
+.second_th {
+    background-color: green;
+
+}
+
+.second_th td p {
+    align-items: right;
+}
+
+.hover1 {
+    color: green;
+    font-family: arial;
+}
+
+.table1 a:hover {
+    color: darkgreen;
+
+}
+
+.hover2 {
+    color: darkslateblue;
+
 }
