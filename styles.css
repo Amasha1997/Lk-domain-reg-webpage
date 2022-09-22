@@ -450,3 +450,17 @@ table th td {
     color: darkslateblue;
 
 }
+
+.hover3 {
+    color: green;
+    font-family: arial;
+
+}
+
+.hover4 {
+    color: darkslateblue;
+}
+
+table {
+    background-color: white;
+}
