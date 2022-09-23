@@ -471,3 +471,13 @@ table {
     background-color: gainsboro;
     box-shadow: 5px 10px 5px #888888;
 }
+
+.my_slide iimg {
+    display: none;
+    vertical-align: middle;
+}
+
+.slideshow {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
